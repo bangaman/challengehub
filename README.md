@@ -13,3 +13,11 @@ database used in this project is managed by hasura
 **Heroku** for deployment 
 **front end** -> html, css & javascript
 **backend** -> hasura & golang
+
+## How to use it
+**database is managed by hasura graphql api** [Register](https://hasura.io) to get started
+update the **HASURA_SECRET** in .env file to your own hasura secret key
+in http.go file modify **http.NewRequest("POST", "https://addprojectnamehere.hasura.app/v1/graphql")** 
+to your hasura api gateway
+start the server with go run main.go
+## you are up and running
