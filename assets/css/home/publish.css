@@ -1,0 +1,75 @@
+.published{
+    margin-top: 15px;
+}
+
+.child-published{
+    border:1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 10px 5px 5px 10px;
+}
+
+.delete{
+    border:1px solid #ccc;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.delete span{
+    font-size: 14px;
+}
+
+.delete button{
+    font-size: 10px;
+}
+
+.published-top{
+    display: flex;
+}
+
+.published-top #pic button{
+    text-transform: capitalize;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    font-weight: 900;
+    background-color: white;
+    border:1px solid #ccc;
+}
+
+.published-top #name{
+    display: flex;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.published-top #trash{
+    margin-left: 15px;
+}
+
+.heading{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.heading button{
+    border:1px solid #ccc;
+}
+
+/* ratings */
+
+.publish-rate{
+    display: flex;
+    margin-top: 7px;
+}
+
+.publish-rate button{
+    background-color: white;
+    border:2px solid #ccc;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

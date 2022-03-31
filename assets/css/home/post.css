@@ -1,0 +1,123 @@
+.challenge-show{
+    margin:auto;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px 10px 10px 10px;
+    border-radius:5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+.top-details{
+    display: flex;
+}
+
+.top-details #pic button{
+    text-transform: capitalize;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    font-weight: 900;
+    background-color: white;
+    border:1px solid #ccc;
+}
+
+.top-details #name, #date{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.top-details #name span{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.top-details #date{
+    font-weight: 900;
+    color: #ccc;
+}
+
+.challenge-title{
+    padding-top: 10px;
+}
+
+.challenge-title #challenge-title img{
+    position: relative;
+    top:3px;
+    height: 20px;
+    width: 20px;
+}
+
+.challenge-title #challenge-title i{
+    color: green;
+}
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.reaction-btn{
+    display: flex;
+}
+
+.reaction-btn #reaction-btn{
+    padding-right: 5px;
+}
+
+.reaction-btn #reaction-btn button{
+    background-color: white;
+    border:white;
+    border-radius: 10px;
+}
+
+.reaction-btn #reaction-btn button img{
+    height: 23px;
+    width: 23px;
+}
+
+.reaction #reaction-join button{
+    background-color: green;
+    border:green;
+    color: white;
+    font-weight: 900;
+    height: 25px;
+}
+
+.related-post{
+    width: fit-content;
+    margin:auto;
+}
+
+.related-post img{
+    position: relative;
+    top:5px;
+}
+
+.start-new{
+    width: fit-content;
+    margin:auto;   
+}
+
+.start-new button{
+    height: 35px;
+    width: 300px;
+    background-color: green;
+    border: green;
+    color:white;
+    font-weight: 900;
+}
+
+@media (min-width:320px)  { 
+    .challenge-show{
+        width: 340px;
+    }
+}
+
+@media (min-width:641px)  { 
+    .challenge-show{
+        width: 500px;
+    }
+}

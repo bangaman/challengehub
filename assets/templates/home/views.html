@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Awesome site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/assets/css/home/view.css" />
+        <link rel="stylesheet" href="/assets/css/home/post.css" />
+    </head>
+    <body>
+       <div class="header-div">
+           <div class="child-header-div">
+               <div id="app-name">
+                   <span>Challenge Hub</span>
+               </div>
+
+               <div id="explore" style="margin-top: -15px;">
+                   <h3>Sign up to get started</h3>
+               </div>
+
+               <div class="reg-details">
+                   <div id="btn-signin" style="padding-right: 15px;">
+                    <a href="/login/" style="text-decoration: none;color: black;">
+                        <button>Sign In</button>
+                    </a>
+                   </div>
+
+                   <div id="btn-signup">
+                    <a href="/register/" style="text-decoration: none;color: black;">
+                        <button>Register</button>
+                    </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+       <div class="home-show-details">
+           {{.Details}}
+       </div>
+    </body>
+</html>

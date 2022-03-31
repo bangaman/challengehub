@@ -1,0 +1,43 @@
+.view-profile-div{
+    width: 340px;
+    margin:auto;
+    margin-top: 25px;
+}
+.profile-top-details #profilepic {
+    width: fit-content;
+    margin:auto;
+}
+
+.profile-top-details #profilepic button{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border:2px solid #ccc;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.profile-top-details #username{
+    width: fit-content;
+    margin:auto;
+    margin-top: 7px;
+}
+
+.profile-top-details #username span{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.show-details{
+    width: fit-content;
+    margin:auto;
+    margin-top: 7px;
+}
+
+.show-details button{
+    text-transform: uppercase;
+    background-color: white;
+    border:white;
+    padding-bottom: 7px;
+}

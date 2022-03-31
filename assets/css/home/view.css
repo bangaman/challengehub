@@ -1,0 +1,51 @@
+html, body{
+    margin: auto;
+    background-color:  #fafafa;
+}
+
+.header-div{
+    /* background-color: white; */
+    padding-top: 20px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.child-header-div{
+    display: flex;
+    padding: 0px 15px 10px 15px;
+    justify-content: space-between;
+}
+
+
+.child-header-div #app-name{
+    margin-top: -2px;
+}
+
+.child-header-div #app-name span{
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.reg-details{
+    display: flex;
+}
+
+.reg-details button{
+    height: 25px;
+    width: 100px;
+    /* font-weight: 600; */
+    background-color: white;
+    border:1px solid green;
+}
+
+
+@media (min-width:320px)  { 
+    #explore{
+        display: none;
+    }
+}
+
+@media (min-width:641px)  { 
+    #explore{
+        display: block;
+    }
+}

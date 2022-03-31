@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Awesome site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/assets/css/home/form.css" />
+        <link rel="stylesheet" href="/assets/css/home/home.css" />
+        <link rel="stylesheet" href="/assets/css/home/post.css" />
+    </head>
+    <body>
+        <div class="header-div">
+            <div class="child-header-div">
+                <div id="app-name">
+                    <span>Challenge Hub</span>
+                </div>
+
+ 
+                <div class="profile-div">
+                    <div id="name">
+                        <span>{{.Username}}</span>
+                    </div>
+ 
+                    <div id="pic">
+                        <a href="/profile/" style="text-decoration: none;color:black;">
+                         <button>{{.User}}</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <div class="form">
+            {{.Error}}
+            <form action="/make/challenge/" method="post">
+                <div class="title">
+                    <span>
+                        <input type="text" placeholder="Title" name="title">
+                    </span>
+                </div>
+
+                <div class="select">
+                    <div id="select" style="padding-right: 10px;">
+                        <div id='select-title'>
+                            <span>visibility</span>
+                        </div>
+                        <select name='visibility'> 
+                            <option value='public'>Public</option> 
+                            <option value='me'>Private</option> 
+                        </select>
+                    </div>
+
+                    <div id="select">
+                        <div id="select-title">
+                            <span>Language</span>
+                        </div>
+                        <select name='language'> 
+                            <option value='public'>Golang</option> 
+                            <option value='me'>Javascript</option> 
+                            <option value='me'>python</option> 
+                        </select>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <span>
+                        <textarea name="about" placeholder="About challenge"></textarea>
+                    </span>
+                </div>
+
+                <div class="code">
+                    <h3><i>Use for Next line >>></i></h3>
+                    <p><i>Like -> </i><b>var name = "mu"; >>> var age = 10;</b></p>
+                    <span>
+                        <input type="text" name="code" placeholder="Code Snippet" />
+                    </span>
+                </div>
+
+                <div class="btn">
+                    <button>Publish Challenge</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

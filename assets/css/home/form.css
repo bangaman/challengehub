@@ -1,0 +1,84 @@
+.form{
+    width: fit-content;
+    margin:auto;
+    margin-top: 25px;
+}
+
+.title input[type=text]{
+    height:50px;
+    padding-left: 20px;
+    width: 320px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+}
+
+.about {
+    margin-top: 25px;
+}
+
+.about textarea{
+    padding-top:10px;
+    padding-left: 15px;
+    height: 50px;
+    width: 320px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+}
+
+.code{
+    margin-top: 25px;
+}
+
+
+.code input[type=text]{
+    padding-left: 15px;
+    height: 100px;
+    width: 320px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+}
+
+textarea:focus {
+    outline: none !important;
+    border:2px solid #ccc;
+}
+
+input[type=text]:focus{
+    outline: none !important;
+    border:2px solid #ccc;
+}
+
+.select{
+    display: flex;
+    margin-top: 25px;
+}
+
+.select #select{
+    display: flex;
+    flex-direction: column;
+}
+
+.select #select span{
+    padding-bottom: 5px;
+}
+
+.select #select select{
+    width: 155px;
+    border:1px solid #ccc;
+}
+
+.select #select-title{
+    width: fit-content;
+    margin:auto;
+    padding-bottom: 5px;
+}
+
+.btn{
+    margin-top: 25px;
+}
+
+.btn button{
+    height: 30px;
+    border:1px solid #ccc;
+    font-weight: 600;
+}

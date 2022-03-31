@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Awesome site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/assets/css/home/profile.css" />
+        <link rel="stylesheet" href="/assets/css/home/home.css" />
+        <link rel="stylesheet" href="/assets/css/home/post.css" />
+    </head>
+    <body>
+        <div class="header-div">
+            <div class="child-header-div">
+                <div id="app-name">
+                    <a href="/" style="text-decoration: none;color:black;">
+                        <span>Challenge Hub</span>
+                    </a>
+                </div>
+ 
+                <div class="profile-div">
+                    <a href="/logout/" style="text-decoration: none;color:black;display: flex;">
+                        <div id="name">
+                            <img src="/assets/icons/logout.svg" />
+                        </div>
+     
+                        <div id="pic" style="position: relative;top:-2px;">
+                            <span>Logout</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="view-profile-div">
+            <div class="child-propfile-div">
+                <div class="profile-top-details">
+                    <div id="profilepic">
+                        {{.User}}
+                    </div>
+
+                    <div id="username">
+                        <span>
+                            {{.Username}}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="show-details">
+                    <span>
+                        <button style="border-bottom:2px solid black;font-weight: 700;">Challenge</button>
+                    </span>
+
+                    <span>
+                        <a href="/profile/?default=accept" style="text-decoration: none;color: black;">
+                            <button>Accepted Challenges</button>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-post">
+            {{.Details}}
+        </div>
+    </body>
+</html>

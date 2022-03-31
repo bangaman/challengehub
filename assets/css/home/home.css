@@ -1,0 +1,145 @@
+html, body{
+    margin: auto;
+    padding-bottom: 20px;
+    /* background-color:  #fafafa; */
+}
+
+.header-div{
+    /* background-color: white; */
+    padding-top: 20px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.child-header-div{
+    display: flex;
+    padding: 0px 15px 10px 15px;
+    justify-content: space-between;
+}
+
+
+.child-header-div #app-name{
+    margin-top: -2px;
+}
+
+.child-header-div #app-name span{
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.publish-challenge button{
+    background-color: green;
+    color: white;
+    height: 35px;
+    border:green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    font-weight: 900;
+}
+
+.publish-challenge img{
+    position: relative;
+    top:3px;
+}
+
+.profile-div{
+    display: flex;
+}
+
+.profile-div #name {
+    padding-right: 15px;
+    text-transform: capitalize;
+}
+
+.profile-div #pic{
+    position: relative;
+    top:-5px;
+}
+
+.profile-div #pic button{
+    text-transform: capitalize;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border:2px solid #ccc;
+}
+
+.home-show-details{
+    margin-top: 15px;
+}
+
+.start-write{
+    margin-top:15px;
+    padding-top:10px;
+    border-top:1px solid #ccc;
+}
+
+.start-write #start-write{
+    width: fit-content;
+    margin:auto;
+    padding-bottom: 10px;
+}
+
+.child-start-write{
+    border-top: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.child-start-write #text-area{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.child-start-write #text-area textarea{
+    width: 500px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    height: 50px;
+
+}
+
+.child-start-write input[type=text]{
+    width: 500px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border:1px solid #ccc;
+    height: 50px;
+
+}
+
+.child-start-write #text-area textarea:focus {
+    outline: none !important;
+    border:2px solid #ccc;
+}
+
+.child-start-write #code-text textarea{
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 500px;
+    border:1px solid #ccc;
+    height: 50px;
+}
+
+
+.child-start-write #publish{
+    padding-top:10px
+}
+
+.child-start-write #publish button{
+    border:1px solid #ccc;
+}
+
+.child-start-write #code-text textarea:focus {
+    outline: none !important;
+    border:2px solid #ccc;
+}
+
+
+
+.child-start-write input[type=text] textarea:focus {
+    outline: none !important;
+    border:2px solid #ccc;
+}
+
+
